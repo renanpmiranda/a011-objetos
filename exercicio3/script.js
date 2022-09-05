@@ -9,7 +9,12 @@ copiaPokemon1.nome = 'Squirtle'
 copiaPokemon1.tipo = 'Água'
 
 pokemon1.ataques = []
-pokemon1.ataques.push({nome: 'Investida', dano: 40, tipo: 'Normal', precisao: 100})
+pokemon1.ataques.push({
+    nome: 'Investida',
+    dano: 40, 
+    tipo: 'Normal', 
+    precisao: 100
+})
 
 copiaPokemon1.ataques = [...pokemon1.ataques]
 
